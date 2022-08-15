@@ -1,4 +1,4 @@
-## ArduGSM - Arduino GSM Kontrol Karti
+## ArduGSM - Arduino GSM Kontrol Kartı
 ```
 Version:    v1.0
 Tarih  :    06.06.2022
@@ -65,9 +65,9 @@ Atmega328P üzerindeki diğer tüm pinler geliştirme kartı üzerinde mevcuttur
 ## Nasıl Kullanılır
 Kart üzerindeki Atmega328P, SIM800C, röleler ve buzzer için 12V 1A adaptör kullanmak yeterlidir. 
 
-Şebekeye bağlanma, arama ve SMS gönderme durumlardında yüksek akım çeken SIM800C modulünün güç gereksinimi karşılamak için güçlü bir besleme hattı oluşturulmuştur. Bu besleme hattı sayesinde, harici pinler aracılığıyla bağlanabilecek sensör vb. donanımlar rahatlıkla kullanılabilir
+Şebekeye bağlanma, arama ve SMS gönderme durumlarında yüksek akım çeken SIM800C modülünün güç gereksinimi karşılamak için güçlü bir besleme hattı oluşturulmuştur. Bu besleme hattı sayesinde, harici pinler aracılığıyla bağlanabilecek sensör vb. donanımlar rahatlıkla kullanılabilir
  
-SIM800C modulü sadece dahili regülatör üzerinden beslenmektedir. Kart adaptör girişinden beslendiğinde tüm bileşenler  regülatör üzerinden enerjilenmektedir.
+SIM800C modülü sadece dahili regülatör üzerinden beslenmektedir. Kart adaptör girişinden beslendiğinde tüm bileşenler  regülatör üzerinden enerjilenmektedir.
 
 --------------------------
 --------------------------
@@ -96,7 +96,7 @@ Kart voltaj kaynağı seçme devresi ile otomatik olarak voltaj regülatörü ü
 ## Kütüphane kullanımı
 Kütüphaneyi yükledikten sonra Dosya -> Örnekler -> ArduGSM  uzantısı üzerindeki örnek uygulamalar ile kolaylıkla test yapabilirsiniz.
 
-**ArduGSM kütüphanesi Arduino UNO tabanlı, ArduGSM kontrol kartı için düzenlenmiş bir kütüphanedir. Bununla birlikte SIM800C, SIM800L serisi SIM modulleri için de sorunsuzca kullanılabilir.**
+**ArduGSM kütüphanesi Arduino UNO tabanlı, ArduGSM kontrol kartı için düzenlenmiş bir kütüphanedir. Bununla birlikte SIM800C, SIM800L serisi SIM modülleri için de sorunsuzca kullanılabilir.**
 
 
 **Mesaj ile Röle Kontrol Örneği**
